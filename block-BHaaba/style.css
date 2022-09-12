@@ -1,0 +1,96 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style  */
+body {
+    background-color: re
+}
+h1 {
+    float: left;
+    font-size: 100px;
+    margin-left: 10px;
+}
+nav {
+    float: right;
+    margin: 30px 30px;
+}
+.nav {
+    margin-left: 20px;
+    font-size: 30px;
+}
+main {
+	clear: both;
+	margin-top: 50px;
+
+}
+.col {
+	width: 33%;
+
+}
+p {
+	font-size: x-large;	 
+	margin-top: 20px;
+}
+section {
+	margin-top: 100px;
+
+}
+article {
+	float: left;
+}
+.section3{
+	background-color: blue;
+}
+.clearfix::before, .clearfix::after{
+	content: "";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
